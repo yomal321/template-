@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Jar - Promo</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        position: relative;
+      }
+      .container {
+        width: 100% !important;
+        max-width: 600px;
+        margin: 0 auto;
+
+        background-color: #ffffff;
+        position: relative;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      /* Hero Section */
+      .hero {
+        position: relative;
+        margin-bottom: 0px;
+        height: 500px; /* Adjust the height to your desired value */
+        background-image: url("img/4.png"); /* Background image */
+        background-size: cover; /* Ensure the image covers the entire hero section */
+        background-position: center center; /* Center the image */
+      }
+      .hero-content {
+        position: absolute;
+        width: 190px;
+        top: 17%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #043728;
+        text-align: center;
+        color: white;
+        padding: 20px;
+      }
+      .hero-content img {
+        width: 100px;
+        margin-bottom: 15px;
+      }
+      .hero-content h1 {
+        font-size: 1rem;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      }
+
+      /* Promo Section */
+      /* Promo Section */
+      .promo {
+        background-color: #043728;
+        position: absolute;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        top: 28%;
+
+        max-width: 400px; /* Optional, to limit width */
+        margin: 20px auto; /* Center horizontally */
+      }
+      .center-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .promo h2 {
+        font-size: 1.5rem;
+        margin: 0;
+      }
+      /* Discount Section */
+      .discount {
+        text-align: center;
+
+        padding: 30px;
+        margin-top: 0px;
+      }
+      .discount h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+      .discount a {
+        color: #2e5c3c;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      .discount p {
+        margin: 10px 0;
+        font-size: 1rem;
+      }
+      .discount-code {
+        display: inline-block;
+
+        color: #333;
+        font-weight: bold;
+        padding: 10px 20px;
+
+        margin-top: 10px;
+      }
+
+      .discount-content {
+        width: full;
+        margin-top: 50px;
+        background-color: #82a7a0;
+        padding: 20px;
+      }
+
+      /* Buttons Section */
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: nowrap; /* Prevent wrapping */
+        margin: 20px 0;
+      }
+      .button {
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+        text-align: center;
+        min-width: 120px;
+      }
+      .button.green {
+        background-color: #2e5c3c;
+        color: white;
+      }
+      .button.yellow {
+        background-color: #f9d923;
+        color: #333;
+      }
+
+      /* Product Grid */
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three columns */
+        gap: 1px; /* Spacing between images */
+
+        justify-content: center; /* Center alignment for items if fewer than three */
+      }
+      .product-grid img {
+        width: 100%;
+        height: auto;
+      }
+
+      /* Footer */
+      footer {
+       
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+      }
+      footer a {
+        color: #f9d923;
+        font-weight: bold;
+      }
+      .social-icons {
+        margin: 10px 0;
+      }
+      .social-icons img {
+       max-width: 50px;
+        margin: 5px 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Hero Section -->
+      <div class="hero">
+        <!--Main image  -->
+        <img src="img/peach.jpg" alt="Background" />
+        <div class="hero-content">
+          <img src="img/gold-logo.webp" alt="Tea Jar Logo" />
+          <h1>Premium Ceylon Tea</h1>
+        </div>
+      </div>
+
+      <!-- Promo Section -->
+      <!-- <div class="promo">
+        <h2>Brew Happiness with the Finest Ceylon Tea</h2>
+      </div> -->
+
+      <!-- Discount Section -->
+      <div class="discount">
+        <!-- Promo Section -->
+        <div class="center-wrapper">
+          <div class="promo">
+            <h2>Brew Happiness with the Finest Ceylon Tea</h2>
+          </div>
+        </div>
+
+        <div class="discount-content">
+          <h3>Visit us at</h3>
+          <a href="https://teajarceylon.com">www.teajarceylon.com</a>
+          <p>Enjoy seamless shopping with unbeatable offers</p>
+          <div class="discount-code">Use Code: TEAJAR30</div>
+
+          <!-- Buttons Section -->
+          <div class="buttons">
+            <div class="button green">Free Delivery</div>
+            <a href="#" class="button green">SHOP NOW</a>
+            <div class="button yellow">30% Off for all products</div>
+          </div>
+
+          <!-- Product Grid -->
+          <div class="product-grid">
+            <img src="img/7.jpg" alt="Cardamom Tea" />
+            <img src="img/8.jpg" alt="Strawberry Tea" />
+            <img src="img/9.jpg" alt="Peach Tea" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2024 Tea Jar. All rights reserved</p>
+        <p>
+          Need help? Our Tea Experts are here for you.
+          <a href="#">Contact Us</a>
+        </p>
+        <div class="social-icons">
+          <a href="#"><img src="img/iconpack/black.png" alt="Instagram" /></a>
+          <a href="#"><img src="img/iconpack/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="img/iconpack/youtube.png" alt="YouTube" /></a>
+          <a href="#"><img src="img/iconpack/tiktok.png" alt="WhatsApp" /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
